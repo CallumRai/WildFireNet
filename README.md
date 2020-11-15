@@ -13,7 +13,7 @@ WildFireNet is a deep artificial neural network which uses weather and satelitte
 
 # Video
 
-https://youtu.be/xcbF_KvtFnk
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/xcbF_KvtFnk)
 
 # Results
 Results can be viewed by consulting the files found in `results`. Here you can enter a location in the USA, in addition to other relevant data attributes (said attributes may be found in the training notebook) and the model's prediction will be returned.
