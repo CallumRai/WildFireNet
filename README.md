@@ -4,8 +4,11 @@ WildFireNet is a linear neural network which uses weather and satelitte data to 
 
 # Structure
 Data: Contains datasets used for training and predicting
+
 Preprocess: clean.py - combines and cleans datasets, predict.py - creates dataset to prediction features, transform.py - turns clean dataset into features
+
 Results: Contains notebook showing resulting predictions
+
 Train: Contains notebook where model is trained
 
 # Results
