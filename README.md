@@ -10,7 +10,7 @@ WildFireNet is a deep artificial neural network which uses weather and satelitte
 
 - `preprocess`: `clean.py` combines and cleans datasets, `predict.py` creates dataset to prediction features, and `transform.py` turns clean dataset into features
 
-- `results`: Contains notebook showing predictions resulting from the preliminary model, as described in the `roadmap.pdf` file.
+- `results`: Contains notebook showing predictions resulting from the preliminary model.
 
 - `train`: Contains the notebook in which the preliminary model was trained (Note: The model was trained using smaller versions of the datasets which can found here: https://drive.google.com/drive/folders/1G8R_xnjWk9WEXvx_hwYQT3rgDVywe1lW?usp=sharing) 
 
@@ -22,4 +22,12 @@ https://youtu.be/xcbF_KvtFnk
 Results can be viewed by consulting the files found in `results`. Here you can enter a location in the USA, in addition to other relevant data attributes (said attributes may be found in the training notebook) and the model's prediction will be returned.
 
 # Future
-The future developments this model will likely be subject to may be found in the `roadmap.pdf` file.
+Future iterations of this will include:
+- Lower radiuses of space considered to make more precise predictions.
+- Geo-spatial data considered with convolutional neural networks.
+- Consideration of wildfire vs other fires (e.g. house fires)
+- Real time weather data.
+- Global scaling
+ 
+ # Use cases
+ WildFireNet has a cast array of use cases, from apps utilising a Watson chat bot and Here location services to notify residents of fire-risk, to dashboards to help firefighters identify high-risk areas and take preventative action.
