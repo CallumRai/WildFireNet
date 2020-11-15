@@ -23,7 +23,7 @@ Results can be viewed by consulting the files found in `results`. Here you can e
 
 # Future
 Future iterations of this will include:
-- Lower radiiof space considered to make more precise predictions.
+- Lower radii of space considered to make more precise predictions.
 - Geo-spatial data considered with convolutional neural networks.
 - Consideration of wildfire vs other fires (e.g. house fires)
 - Real time weather data.
