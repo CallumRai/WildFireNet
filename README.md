@@ -23,11 +23,11 @@ Results can be viewed by consulting the files found in `results`. Here you can e
 
 # Future
 Future iterations of this will include:
-- Lower radiuses of space considered to make more precise predictions.
+- Lower radiiof space considered to make more precise predictions.
 - Geo-spatial data considered with convolutional neural networks.
 - Consideration of wildfire vs other fires (e.g. house fires)
 - Real time weather data.
 - Global scaling
  
  # Use cases
- WildFireNet has a cast array of use cases, from apps utilising a Watson chat bot and Here location services to notify residents of fire-risk, to dashboards to help firefighters identify high-risk areas and take preventative action.
+WildFireNet has a vast array of use cases, from apps utilising a Watson chat bot and Here location services to notify residents of fire-risk, to dashboards to help firefighters identify high-risk areas and take preventative action.
