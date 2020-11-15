@@ -1,18 +1,18 @@
 # Description
 
-WildFireNet is a linear neural network which uses weather and satelitte data to form accurate predictions on the probability of there being a wildfire in any given location in the USA.
+WildFireNet is a deep artificial neural network which uses weather and satelitte data to foresee the likelihood of a wildfire starting, and remaining active, 7 days after the given date at which the climate evaluation is made, or 30 days after the date at which the climate evaluation is made.
 
 # Structure
-Data: Contains datasets used for training and predicting
+- `data`: Contains datasets used for training and predicting
 
-Preprocess: clean.py - combines and cleans datasets, predict.py - creates dataset to prediction features, transform.py - turns clean dataset into features
+- `preprocess`: `clean.py` combines and cleans datasets, `predict.py` creates dataset to prediction features, and `transform.py` turns clean dataset into features
 
-Results: Contains notebook showing resulting predictions
+- `results`: Contains notebook showing predictions resulting from the preliminary model, as described in the `roadmap.pdf` file.
 
-Train: Contains notebook where model is trained
+- `train`: Contains the notebook in which further data processing (the datasets resulting from said further processing can be found in the Google Drive archive located at https://drive.google.com/drive/folders/1G8R_xnjWk9WEXvx_hwYQT3rgDVywe1lW?usp=sharing) was performed, and the preliminary model was trained.
 
 # Results
-Results can be viewed in results/Results. Here you can enter a location in the USA and data and the model's prediction will be returned.
+Results can be viewed by consulting the files found in `results`. Here you can enter a location in the USA, in addition to other relevant data attributes (said attributes may be found in the training notebook) and the model's prediction will be returned.
 
 # Future
-In the future WildFireNet will reduce the radius of space it considers to form more precise predictions. Use geo-spatial data with convolutional neural networks. Scale to a global level.
+The future developments this model will likely be subject to may be found in the `roadmap.pdf` file.
